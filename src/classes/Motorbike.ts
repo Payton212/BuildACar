@@ -47,8 +47,8 @@ class Motorbike extends Vehicle{
   // TODO: Implement the wheelie method
     // TODO: The method should log the message "Motorbike [make] [model] is doing a wheelie!"
 
-  wheelie(): string{
-    return `MotorBike ${this.make,this.model} is doing a wheelie!`
+  wheelie?(vehicle: Motorbike): string{
+    return `MotorBike ${vehicle.make,vehicle.model} is doing a wheelie!`
   }
   // TODO: Override the printDetails method from the Vehicle class
   override  printDetails(): void {
